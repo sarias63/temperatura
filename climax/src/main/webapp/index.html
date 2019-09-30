@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Java Web Starter Application</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+	<form>
+		Nombre:
+		<br>
+		<input type="text" name="nombre" placeholder="Ingrese nombre" id="nombre" value="#{iniciobean.nombre}">
+		<br>/*value="#{iniciobean.nombre}"*/ Apellido:
+		<br>
+		<input type="text" name="apellido" placeholder="ingrese apellido" id="apellido" value="#{iniciobean.apellido}">
+		<br> Ciudad:
+		<br>
+		<select type="text" name="ciudad" id="ciudad" value="#{iniciobean.ciudad}">
+			<option value="bogota">Bogota</option>
+			<option value="cali">Cali</option>
+			<option value="medellin">Medellin</option>
+			<option value="pereira">Pereira</option>
+			<option value="Armenia">Armenia</option>
+		</select>
+		<br>
+		<br>
+		<button type="button" value="Enviar" action="respuesta">Consultar</button>
+	</form>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
